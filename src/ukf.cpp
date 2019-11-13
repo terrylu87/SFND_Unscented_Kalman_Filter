@@ -1,10 +1,10 @@
 #include "ukf.h"
 #include "Eigen/Dense"
+#include <vector>
 
 using namespace std;
 using Eigen::MatrixXd;
 using Eigen::VectorXd;
-using std::vector;
 
 const float EPSILON = 0.0001;
 //#define USE_UKF_FOR_LIDAR
